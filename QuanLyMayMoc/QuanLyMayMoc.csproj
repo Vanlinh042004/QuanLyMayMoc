@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QuanLyMayMoc</RootNamespace>
+    <AssemblyName>QuanLyMayMoc</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.2.1.35\lib\net461\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Dialogs.v22.1.Core, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Docs.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Drawing.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v22.1.Core, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v22.1.Core, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v22.1.Core, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Spreadsheet.v22.1.Core, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraDialogs.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPdfViewer.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraSpreadsheet.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.15\lib\net45\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.2.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="MiniProfiler, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b44f9351044011a3, processorArchitecture=MSIL">
+      <HintPath>..\packages\MiniProfiler.4.0.0\lib\net461\MiniProfiler.dll</HintPath>
+    </Reference>
+    <Reference Include="MiniProfiler.Shared, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b44f9351044011a3, processorArchitecture=MSIL">
+      <HintPath>..\packages\MiniProfiler.Shared.4.0.0\lib\net461\MiniProfiler.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.4.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.SQLite, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Tai Lieu\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.2.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.4.1\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Text.Json, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseFrom.cs" />
+    <Compile Include="Common\Constant\CommonConstants.cs" />
+    <Compile Include="Common\Constant\CusFilePath.cs" />
+    <Compile Include="Common\Constant\DanhSachNhanVienConstant.cs" />
+    <Compile Include="Common\Constant\MyConstant.cs" />
+    <Compile Include="Common\Enums\FileManageTypeEnum.cs" />
+    <Compile Include="Common\Enums\FileStateEnum.cs" />
+    <Compile Include="Common\Helper\AlertShower.cs" />
+    <Compile Include="Common\Helper\DuAnHelper.cs" />
+    <Compile Include="Common\Helper\EnumHelper.cs" />
+    <Compile Include="Common\Helper\FileHelper.cs" />
+    <Compile Include="Common\Helper\MessageShower.cs" />
+    <Compile Include="Common\Helper\SpreadsheetHelper.cs" />
+    <Compile Include="Common\Helper\TongHopHelper.cs" />
+    <Compile Include="Common\Helper\WaitFormHelper.cs" />
+    <Compile Include="Common\MLogging\Logging.cs" />
+    <Compile Include="Common\ViewModel\Tbl_ThongTinDuAnViewModel.cs" />
+    <Compile Include="Common\ViewModel\TBTStaticWaitForm.cs" />
+    <Compile Include="Controls\NhanVien\DanhSachNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NhanVien\DanhSachNhanVien.Designer.cs">
+      <DependentUpon>DanhSachNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataProvider.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formluachon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formluachon.Designer.cs">
+      <DependentUpon>Formluachon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\DanhSachNhanVienModel.cs" />
+    <Compile Include="Model\DichVuThang.cs" />
+    <Compile Include="Model\FileSQLiteViewModel.cs" />
+    <Compile Include="Model\FileViewModel.cs" />
+    <Compile Include="Model\ModelGiaLoiLinhKien.cs" />
+    <Compile Include="Model\UnsavedProject.cs" />
+    <Compile Include="Model\ViTriNhanVien_PhongBan.cs" />
+    <Compile Include="MyFunction.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuanLyMayMoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyMayMoc.Designer.cs">
+      <DependentUpon>QuanLyMayMoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Style.cs" />
+    <Compile Include="SharedControls.cs" />
+    <Compile Include="WaitForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitForm1.Designer.cs">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XtraForm_ExcelPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XtraForm_ExcelPreview.Designer.cs">
+      <DependentUpon>XtraForm_ExcelPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XtraForm_NotYetSaveProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XtraForm_NotYetSaveProject.Designer.cs">
+      <DependentUpon>XtraForm_NotYetSaveProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XtraForm_wordPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XtraForm_wordPreview.Designer.cs">
+      <DependentUpon>XtraForm_wordPreview.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Controls\NhanVien\DanhSachNhanVien.resx">
+      <DependentUpon>DanhSachNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLuaChon.resx">
+      <DependentUpon>Formluachon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QuanLyMayMoc.resx">
+      <DependentUpon>QuanLyMayMoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm1.resx">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraForm_ExcelPreview.resx">
+      <DependentUpon>XtraForm_ExcelPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraForm_NotYetSaveProject.resx">
+      <DependentUpon>XtraForm_NotYetSaveProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraForm_wordPreview.resx">
+      <DependentUpon>XtraForm_wordPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\2.MTC.jpg" />
+    <Content Include="Resources\accounting.svg" />
+    <Content Include="Resources\actions_add.svg" />
+    <Content Include="Resources\actions_deletecircled.svg" />
+    <Content Include="Resources\actions_edit.svg" />
+    <Content Include="Resources\actions_refresh.svg" />
+    <Content Include="Resources\actions_user.svg" />
+    <Content Include="Resources\addcolumn_16x16.png" />
+    <Content Include="Resources\addfile_16x16.png" />
+    <Content Include="Resources\addfile_16x161.png" />
+    <Content Include="Resources\addfile_16x162.png" />
+    <Content Include="Resources\addfile_32x32.png" />
+    <Content Include="Resources\additem_16x16.png" />
+    <Content Include="Resources\addnewdatasource_16x16.png" />
+    <Content Include="Resources\addnewdatasource_16x161.png" />
+    <Content Include="Resources\addnewdatasource_32x32.png" />
+    <Content Include="Resources\add_16x16.png" />
+    <Content Include="Resources\add_16x161.png" />
+    <Content Include="Resources\add_16x162.png" />
+    <Content Include="Resources\add_16x163.png" />
+    <Content Include="Resources\add_16x164.png" />
+    <Content Include="Resources\add_16x165.png" />
+    <Content Include="Resources\add_16x166.png" />
+    <Content Include="Resources\add_16x167.png" />
+    <Content Include="Resources\add_16x168.png" />
+    <Content Include="Resources\add_16x169.png" />
+    <Content Include="Resources\add_32x32.png" />
+    <Content Include="Resources\add_32x321.png" />
+    <Content Include="Resources\apply_16x16.png" />
+    <Content Include="Resources\apply_16x161.png" />
+    <Content Include="Resources\apply_16x1610.png" />
+    <Content Include="Resources\apply_16x1611.png" />
+    <Content Include="Resources\apply_16x1612.png" />
+    <Content Include="Resources\apply_16x1613.png" />
+    <Content Include="Resources\apply_16x1614.png" />
+    <Content Include="Resources\apply_16x1615.png" />
+    <Content Include="Resources\apply_16x1616.png" />
+    <Content Include="Resources\apply_16x1617.png" />
+    <Content Include="Resources\apply_16x1618.png" />
+    <Content Include="Resources\apply_16x1619.png" />
+    <Content Include="Resources\apply_16x162.png" />
+    <Content Include="Resources\apply_16x1620.png" />
+    <Content Include="Resources\apply_16x1621.png" />
+    <Content Include="Resources\apply_16x1622.png" />
+    <Content Include="Resources\apply_16x1623.png" />
+    <Content Include="Resources\apply_16x163.png" />
+    <Content Include="Resources\apply_16x164.png" />
+    <Content Include="Resources\apply_16x165.png" />
+    <Content Include="Resources\apply_16x166.png" />
+    <Content Include="Resources\apply_16x167.png" />
+    <Content Include="Resources\apply_16x168.png" />
+    <Content Include="Resources\apply_16x169.png" />
+    <Content Include="Resources\arrangegroups_16x16.png" />
+    <Content Include="Resources\arrangegroups_16x161.png" />
+    <Content Include="Resources\BellFacebook.bmp" />
+    <Content Include="Resources\bocustomer_16x16.png" />
+    <None Include="Resources\NoImage.jpg" />
+    <None Include="Resources\boperson_16x16.png" />
+    <Content Include="Resources\bosale_16x16.png" />
+    <Content Include="Resources\buy_16x16.png" />
+    <Content Include="Resources\cancel_16x16.png" />
+    <Content Include="Resources\cancel_16x161.png" />
+    <Content Include="Resources\cancel_16x1610.png" />
+    <Content Include="Resources\cancel_16x1611.png" />
+    <Content Include="Resources\cancel_16x1612.png" />
+    <Content Include="Resources\cancel_16x1613.png" />
+    <Content Include="Resources\cancel_16x1614.png" />
+    <Content Include="Resources\cancel_16x1615.png" />
+    <Content Include="Resources\cancel_16x1616.png" />
+    <Content Include="Resources\cancel_16x162.png" />
+    <Content Include="Resources\cancel_16x163.png" />
+    <Content Include="Resources\cancel_16x164.png" />
+    <Content Include="Resources\cancel_16x165.png" />
+    <Content Include="Resources\cancel_16x166.png" />
+    <Content Include="Resources\cancel_16x167.png" />
+    <Content Include="Resources\cancel_16x168.png" />
+    <Content Include="Resources\cancel_16x169.png" />
+    <Content Include="Resources\cancel_32x32.png" />
+    <Content Include="Resources\cancel_32x321.png" />
+    <Content Include="Resources\changechartseriestype_16x16.png" />
+    <Content Include="Resources\changechartseriestype_16x161.png" />
+    <Content Include="Resources\changechartseriestype_16x162.png" />
+    <Content Include="Resources\changechartseriestype_16x163.png" />
+    <Content Include="Resources\changechartseriestype_16x164.png" />
+    <Content Include="Resources\checkbox_32x32.png" />
+    <Content Include="Resources\clear_16x16.png" />
+    <Content Include="Resources\close_32x32.png" />
+    <Content Include="Resources\convert_16x16.png" />
+    <Content Include="Resources\convert_16x161.png" />
+    <Content Include="Resources\convert_16x162.png" />
+    <Content Include="Resources\delete_hyperlink_16x16.png" />
+    <Content Include="Resources\delete_hyperlink_32x32.png" />
+    <Content Include="Resources\doublenext_16x16.png" />
+    <Content Include="Resources\doublenext_32x32.png" />
+    <Content Include="Resources\download_16x16.png" />
+    <Content Include="Resources\download_32x32.png" />
+    <Content Include="Resources\editcontact_32x32.png" />
+    <Content Include="Resources\editDoc.bmp" />
+    <Content Include="Resources\EditDoc.png" />
+    <Content Include="Resources\editfeed_16x16.png" />
+    <Content Include="Resources\editname_32x32.png" />
+    <Content Include="Resources\error.png" />
+    <Content Include="Resources\ExpandRight.png" />
+    <Content Include="Resources\exportfile.svg" />
+    <Content Include="Resources\exporttopdf_16x16.png" />
+    <Content Include="Resources\exporttopdf_32x32.png" />
+    <Content Include="Resources\exporttopdf_32x321.png" />
+    <Content Include="Resources\exporttoxlsx_16x16.png" />
+    <Content Include="Resources\exporttoxlsx_32x32.png" />
+    <Content Include="Resources\exporttoxlsx_32x321.png" />
+    <Content Include="Resources\exporttoxlsx_32x322.png" />
+    <Content Include="Resources\exporttoxls_16x16.png" />
+    <Content Include="Resources\exporttoxls_16x161.png" />
+    <Content Include="Resources\exporttoxls_16x162.png" />
+    <Content Include="Resources\exporttoxls_32x32.png" />
+    <Content Include="Resources\exporttoxls_32x321.png" />
+    <Content Include="Resources\exporttoxls_32x322.png" />
+    <Content Include="Resources\exporttoxls_32x323.png" />
+    <Content Include="Resources\export_16x16.png" />
+    <Content Include="Resources\export_16x161.png" />
+    <Content Include="Resources\export_16x162.png" />
+    <Content Include="Resources\export_32x32.png" />
+    <Content Include="Resources\findcustomers_16x16.png" />
+    <Content Include="Resources\formatastable_32x32.png" />
+    <Content Include="Resources\fullstackedbar_16x16.png" />
+    <Content Include="Resources\glyph_phone.svg" />
+    <Content Include="Resources\hide_16x16.png" />
+    <Content Include="Resources\hyperlink_16x16.png" />
+    <Content Include="Resources\hyperlink_16x161.png" />
+    <Content Include="Resources\hyperlink_16x162.png" />
+    <Content Include="Resources\hyperlink_16x163.png" />
+    <Content Include="Resources\hyperlink_16x164.png" />
+    <Content Include="Resources\hyperlink_16x165.png" />
+    <Content Include="Resources\icons8-add-25.png" />
+    <Content Include="Resources\icons8-add-administrator-16.png" />
+    <Content Include="Resources\icons8-add-user-241.png" />
+    <Content Include="Resources\icons8-approval-18.png" />
+    <Content Include="Resources\icons8-approval-24.png" />
+    <Content Include="Resources\icons8-database-export-24.png" />
+    <Content Include="Resources\icons8-edit-20.png" />
+    <Content Include="Resources\icons8-edit-24.png" />
+    <Content Include="Resources\icons8-list-18 %281%29.png" />
+    <Content Include="Resources\icons8-list-18.png" />
+    <Content Include="Resources\icons8-list-20.png" />
+    <Content Include="Resources\icons8-list-24.png" />
+    <Content Include="Resources\icons8-list-25.png" />
+    <Content Include="Resources\icons8-list-26.png" />
+    <Content Include="Resources\icons8-macos-close-24.png" />
+    <Content Include="Resources\icons8-note-18.png" />
+    <Content Include="Resources\icons8-note-24.png" />
+    <Content Include="Resources\icons8-plus-18.png" />
+    <Content Include="Resources\icons8-plus-24.png" />
+    <Content Include="Resources\icons8-remove-24.png" />
+    <Content Include="Resources\icons8-user-16.png" />
+    <Content Include="Resources\icons8_cancel_25px.png" />
+    <Content Include="Resources\iconsetsymbols3_16x16.png" />
+    <Content Include="Resources\info.png" />
+    <Content Include="Resources\insertimage_16x16.png" />
+    <Content Include="Resources\linktoprevious_16x16.png" />
+    <Content Include="Resources\linktoprevious_16x161.png" />
+    <Content Include="Resources\Logo1.jpg" />
+    <Content Include="Resources\Logo2.jpg" />
+    <Content Include="Resources\movedown_16x16.png" />
+    <Content Include="Resources\newdatasource_16x16.png" />
+    <Content Include="Resources\nghiemthu.bmp" />
+    <Content Include="Resources\nghiemthu.jpg" />
+    <Content Include="Resources\notification.png" />
+    <Content Include="Resources\previewchart_16x16.png" />
+    <Content Include="Resources\preview_16x16.png" />
+    <Content Include="Resources\projectfile_16x16.png" />
+    <Content Include="Resources\projectfile_16x161.png" />
+    <Content Include="Resources\publicfix_32x32.png" />
+    <Content Include="Resources\QLTC.jpg" />
+    <Content Include="Resources\refresh2_16x16.png" />
+    <Content Include="Resources\refreshpivottable_16x16.png" />
+    <Content Include="Resources\refreshpivottable_16x161.png" />
+    <Content Include="Resources\refreshpivottable_16x162.png" />
+    <Content Include="Resources\remove_16x16.png" />
+    <Content Include="Resources\remove_16x161.png" />
+    <Content Include="Resources\remove_16x162.png" />
+    <Content Include="Resources\replace_16x16.png" />
+    <Content Include="Resources\replace_32x32.png" />
+    <Content Include="Resources\save_16x16.png" />
+    <Content Include="Resources\security_key.svg" />
+    <Content Include="Resources\show_16x16.png" />
+    <Content Include="Resources\snaptocells_16x16.png" />
+    <Content Include="Resources\stackedcolumn_16x16.png" />
+    <Content Include="Resources\success.png" />
+    <Content Include="Resources\transit_16x16.png" />
+    <Content Include="Resources\trash_16x16.png" />
+    <Content Include="Resources\trash_32x32.png" />
+    <Content Include="Resources\updatedataextract.svg" />
+    <Content Include="Resources\updatetableofcontents_32x32.png" />
+    <Content Include="Resources\upload_16x16.png" />
+    <Content Include="Resources\video_16x16.png" />
+    <Content Include="Resources\warning.png" />
+    <Content Include="Resources\youtube_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>
