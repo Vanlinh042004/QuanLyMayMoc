@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|d:\\managemachine\\linhlamappqlmaymoc\\quanlymaymoc\\quanlymaymoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|solutionrelative:quanlymaymoc\\quanlymaymoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|D:\\ManageMachine\\LinhLamAppQLMayMoc\\quanlymaymoc\\xtraform_notyetsaveproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|solutionrelative:quanlymaymoc\\xtraform_notyetsaveproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|D:\\ManageMachine\\LinhLamAppQLMayMoc\\quanlymaymoc\\xtraform_wordpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|solutionrelative:quanlymaymoc\\xtraform_wordpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|D:\\ManageMachine\\LinhLamAppQLMayMoc\\quanlymaymoc\\xtraform_excelpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|solutionrelative:quanlymaymoc\\xtraform_excelpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|D:\\ManageMachine\\LinhLamAppQLMayMoc\\quanlymaymoc\\waitform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|solutionrelative:quanlymaymoc\\waitform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|D:\\ManageMachine\\LinhLamAppQLMayMoc\\quanlymaymoc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|solutionrelative:quanlymaymoc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|D:\\ManageMachine\\LinhLamAppQLMayMoc\\quanlymaymoc\\formluachon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|solutionrelative:quanlymaymoc\\formluachon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|D:\\ManageMachine\\LinhLamAppQLMayMoc\\quanlymaymoc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|solutionrelative:quanlymaymoc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|D:\\ManageMachine\\LinhLamAppQLMayMoc\\quanlymaymoc\\sharedcontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|solutionrelative:quanlymaymoc\\sharedcontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|D:\\ManageMachine\\LinhLamAppQLMayMoc\\quanlymaymoc\\basefrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|solutionrelative:quanlymaymoc\\basefrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|D:\\ManageMachine\\LinhLamAppQLMayMoc\\quanlymaymoc\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|solutionrelative:quanlymaymoc\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|D:\\ManageMachine\\LinhLamAppQLMayMoc\\quanlymaymoc\\waitform1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E9D95A8-7DBB-43C1-8E6C-D3C0DF401F1E}|QuanLyMayMoc\\QuanLyMayMoc.csproj|solutionrelative:quanlymaymoc\\waitform1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "XtraForm_NotYetSaveProject.cs [Design]",
+              "DocumentMoniker": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\XtraForm_NotYetSaveProject.cs",
+              "RelativeDocumentMoniker": "QuanLyMayMoc\\XtraForm_NotYetSaveProject.cs",
+              "ToolTip": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\XtraForm_NotYetSaveProject.cs [Design]",
+              "RelativeToolTip": "QuanLyMayMoc\\XtraForm_NotYetSaveProject.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T15:46:09.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "XtraForm_ExcelPreview.cs [Design]",
+              "DocumentMoniker": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\XtraForm_ExcelPreview.cs",
+              "RelativeDocumentMoniker": "QuanLyMayMoc\\XtraForm_ExcelPreview.cs",
+              "ToolTip": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\XtraForm_ExcelPreview.cs [Design]",
+              "RelativeToolTip": "QuanLyMayMoc\\XtraForm_ExcelPreview.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T15:46:06.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\Program.cs",
+              "RelativeDocumentMoniker": "QuanLyMayMoc\\Program.cs",
+              "ToolTip": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\Program.cs",
+              "RelativeToolTip": "QuanLyMayMoc\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwB4AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T15:43:30.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "XtraForm_wordPreview.cs [Design]",
+              "DocumentMoniker": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\XtraForm_wordPreview.cs",
+              "RelativeDocumentMoniker": "QuanLyMayMoc\\XtraForm_wordPreview.cs",
+              "ToolTip": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\XtraForm_wordPreview.cs [Design]",
+              "RelativeToolTip": "QuanLyMayMoc\\XtraForm_wordPreview.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T15:43:15.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseFrom.cs",
+              "DocumentMoniker": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\BaseFrom.cs",
+              "RelativeDocumentMoniker": "QuanLyMayMoc\\BaseFrom.cs",
+              "ToolTip": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\BaseFrom.cs",
+              "RelativeToolTip": "QuanLyMayMoc\\BaseFrom.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T15:43:06.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataProvider.cs",
+              "DocumentMoniker": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\DataProvider.cs",
+              "RelativeDocumentMoniker": "QuanLyMayMoc\\DataProvider.cs",
+              "ToolTip": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\DataProvider.cs",
+              "RelativeToolTip": "QuanLyMayMoc\\DataProvider.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T15:43:02.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WaitForm1.cs [Design]",
+              "DocumentMoniker": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\WaitForm1.cs",
+              "RelativeDocumentMoniker": "QuanLyMayMoc\\WaitForm1.cs",
+              "ToolTip": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\WaitForm1.cs [Design]",
+              "RelativeToolTip": "QuanLyMayMoc\\WaitForm1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T15:36:58.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuanLyMayMoc.cs [Design]",
+              "DocumentMoniker": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\QuanLyMayMoc.cs",
+              "RelativeDocumentMoniker": "QuanLyMayMoc\\QuanLyMayMoc.cs",
+              "ToolTip": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\QuanLyMayMoc.cs [Design]",
+              "RelativeToolTip": "QuanLyMayMoc\\QuanLyMayMoc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:49:43.243Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SharedControls.cs",
+              "DocumentMoniker": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\SharedControls.cs",
+              "RelativeDocumentMoniker": "QuanLyMayMoc\\SharedControls.cs",
+              "ToolTip": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\SharedControls.cs",
+              "RelativeToolTip": "QuanLyMayMoc\\SharedControls.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T15:43:51.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Formluachon.cs [Design]",
+              "DocumentMoniker": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\Formluachon.cs",
+              "RelativeDocumentMoniker": "QuanLyMayMoc\\Formluachon.cs",
+              "ToolTip": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\Formluachon.cs [Design]",
+              "RelativeToolTip": "QuanLyMayMoc\\Formluachon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:49:29.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\Form1.cs",
+              "RelativeDocumentMoniker": "QuanLyMayMoc\\Form1.cs",
+              "ToolTip": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\Form1.cs [Design]",
+              "RelativeToolTip": "QuanLyMayMoc\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:49:26.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WaitForm1.Designer.cs",
+              "DocumentMoniker": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\WaitForm1.Designer.cs",
+              "RelativeDocumentMoniker": "QuanLyMayMoc\\WaitForm1.Designer.cs",
+              "ToolTip": "D:\\ManageMachine\\LinhLamAppQLMayMoc\\QuanLyMayMoc\\WaitForm1.Designer.cs",
+              "RelativeToolTip": "QuanLyMayMoc\\WaitForm1.Designer.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowC0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T15:36:06.822Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
